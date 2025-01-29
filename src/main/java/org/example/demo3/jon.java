@@ -18,7 +18,7 @@ public class jon extends HttpServlet {
              ResultSet rs = stmt.executeQuery("SELECT DATABASE()")) {
 
             out.println("<html><body>");
-            out.println("<h1>Connected to Database: </h1>");
+            out.println("<h1>Connected to jjjjjjjjjjjjjDatabase saved: </h1>");
             if (rs.next()) {
                 out.println("<h2>" + rs.getString(1) + "</h2>");
             }
